@@ -1,0 +1,141 @@
+.wavelog-registration-form .card { 
+    max-width: 500px; 
+    margin: 20px auto; 
+    background: #1a1f29; 
+    border-radius: 14px; 
+    padding: 25px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,.35); 
+    color: #e6e6e6;
+}
+
+.wavelog-registration-form h1 { 
+    margin: 0 0 15px 0; 
+    font-weight: 700; 
+    letter-spacing: .3px; 
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.wavelog-registration-form label { 
+    display: block; 
+    font-weight: 600; 
+    margin: 18px 0 6px; 
+    font-size: 15px;
+    color: #e6e6e6;
+}
+
+.wavelog-registration-form input { 
+    width: 100%; 
+    padding: 12px 14px; 
+    border-radius: 10px; 
+    border: 1px solid #2a3242; 
+    background: #0e121b; 
+    color: #fff; 
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.wavelog-registration-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+.wavelog-registration-form input:invalid:not(:focus):not(:placeholder-shown) {
+    border-color: #ff6b6b;
+}
+
+.wavelog-registration-form input:valid:not(:focus):not(:placeholder-shown) {
+    border-color: #51cf66;
+}
+
+/* .row class'ını kaldırıyoruz çünkü artık ihtiyaç yok */
+.wavelog-registration-form .btn { 
+    margin-top: 22px; 
+    padding: 14px; 
+    width: 100%;
+    border: 0; 
+    border-radius: 10px; 
+    background: #3b82f6; 
+    color: #fff; 
+    font-weight: 700; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+.wavelog-registration-form .btn:hover {
+    background: #2563eb;
+}
+
+.wavelog-registration-form .muted { 
+    color: #9aa4b2; 
+    font-size: 14px; 
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.wavelog-registration-form .alert { 
+    background: #222a36; 
+    color: #ffe08a; 
+    padding: 14px 16px; 
+    border-radius: 10px; 
+    margin-bottom: 18px; 
+    font-size: 14px;
+}
+
+.wavelog-registration-form .error { 
+    background: #3b1a1a; 
+    color: #ffb4b4; 
+}
+
+.wavelog-registration-form .success { 
+    background: #1a3b24; 
+    color: #b6ffc5; 
+}
+
+.wavelog-registration-form .foot {
+    margin-top: 20px; 
+    font-size: 13px; 
+    color: #9aa4b2; 
+    text-align: center;
+    line-height: 1.5;
+}
+
+.wavelog-registration-form .back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.wavelog-registration-form .back-link:hover {
+    text-decoration: underline;
+}
+
+.required {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+/* Zorunlu alan uyarı stili */
+.wavelog-registration-form input:required {
+    background-image: linear-gradient(45deg, transparent 95%, #ff6b6b 95%);
+    background-size: 8px 8px;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+/* Form grupları için stil - TÜM FORM ALANLARI İÇİN AYNI YAPI */
+.wavelog-registration-form .form-group {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+/* Hata alanı stili */
+.error-field {
+    border-color: #ff6b6b !important;
+    background-color: rgba(255, 107, 107, 0.1) !important;
+}
