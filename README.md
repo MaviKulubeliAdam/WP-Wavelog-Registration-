@@ -39,7 +39,7 @@ Not: Yönetici panelinde `Kısa Kodlar` kutusunda birer `Kopyala` butonu bulunur
 - Stil çakışmaları devam ederse: tema veya başka admin eklentileri kendi CSS'leri ile çakışıyor olabilir; bana kullandığınız tema/eklentileri söyleyin, spesifik selector ile daha yüksek öncelikli (specificity) düzeltme ekleyebilirim.
 
 **Destek / Geri Bildirim:**
-E-posta: destek@ornekdomain.com (örnek) — hata raporları veya istekler için lütfen eklenti ve WordPress sürüm bilgilerini ekleyin.
+E-posta: erkin@ta4aqg.tr — hata raporları veya istekler için lütfen eklenti ve WordPress sürüm bilgilerini ekleyin.
 
 **Lisans:**
 Kendi kullanımınız için serbesttir. Dağıtım veya türev çalışmalar için lütfen geliştirici ile iletişime geçin.
